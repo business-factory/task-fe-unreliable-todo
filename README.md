@@ -5,7 +5,7 @@
 Your task is to create a simple backend-connected TODO app.
 
 Your app needs to support all CRUD operations on TODO items.  
-There also needs to be a session control component.  
+There also needs to be a session control component - a component where you can manage your session, create new, delete the current one, change the current session't failure rate.  
 The TODOs have to be filterable.  
 Feel free to add 1 - 3 custom features
 
