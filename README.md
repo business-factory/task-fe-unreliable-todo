@@ -9,7 +9,7 @@ There also needs to be a session control component - a component where you can m
 The TODOs have to be filterable.  
 Feel free to add 1 - 3 custom features
 
-Show us your best. Like you were coding a real life, production-ready project.
+**Show us your best. Like you were coding a real life, production-ready project.**
 
 The following technologies have to be used:
 * React
