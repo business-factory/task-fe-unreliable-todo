@@ -2,7 +2,7 @@ const storage = require('../storage')
 const bodyParser = require('body-parser')
 const {raiseErrorBySessionId, dealWithError, generateError} = require('../utils')
 const {STATUS} = require('../constants')
-const uuid = require('uuid')
+const {v4: uuid} = require('uuid')
 
 const apiPath = '/api/todos'
 

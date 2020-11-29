@@ -1,5 +1,5 @@
 const bodyParser = require('body-parser')
-const uuid = require('uuid/v4')
+const {v4: uuid} = require('uuid')
 const {DEFAULT_ERROR_RATE, STATUS} = require('../constants')
 const {generateError, raiseErrorBySessionId, dealWithError, generateTodo} = require('../utils')
 const storage = require('../storage')

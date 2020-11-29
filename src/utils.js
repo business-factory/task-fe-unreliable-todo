@@ -1,4 +1,4 @@
-const uuid = require('uuid/v4')
+const {v4: uuid} = require('uuid')
 const {STATUS, UnauthorizedError, UnreliableError, TODO_TEXTS, DAY_MS} = require('./constants')
 const storage = require('./storage')
 

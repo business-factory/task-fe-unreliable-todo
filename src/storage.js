@@ -12,7 +12,6 @@ class Storage {
 		this.__renewSession = this.__renewSession.bind(this)
 	}
 
-
 	createSession (session) {
 		const date = new Date()
 
@@ -72,7 +71,6 @@ class Storage {
 			.reduce((acc, session) => ({...acc, [session.id]: session}), {})
 	}
 }
+
 const storage = new Storage()
-
-
 module.exports = storage
